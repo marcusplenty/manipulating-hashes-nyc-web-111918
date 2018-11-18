@@ -19,6 +19,8 @@ def first_challenge
       values.each do |attribs, vals2|
         if attribs == [:favorite_icecream_flavors]
           
+        end
+      end
     end
   end
 
