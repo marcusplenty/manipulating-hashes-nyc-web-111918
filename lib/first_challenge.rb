@@ -15,7 +15,11 @@ def first_challenge
 
   #your code here
   contacts.each do |keys, values|
-    
+    if keys == "Freddy Mercury"
+      values.each do |attribs, vals2|
+        if attribs == [:favorite_icecream_flavors]
+          
+    end
   end
 
   #remember to return your newly altered contacts hash!
