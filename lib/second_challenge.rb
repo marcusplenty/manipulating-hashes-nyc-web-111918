@@ -7,10 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-  flat = []
-  groceries.each do |keys, value|
-    flat << keys.values
-  end
+  flat = groceries.values
+  flat.flatten!
   return flat
     
   
