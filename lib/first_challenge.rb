@@ -16,8 +16,8 @@ def first_challenge
   #your code here
   contacts.each do |keys, values|
     if keys == "Freddy Mercury"
-      values.each do |attribs|
-        if attribs == [:favorite_icecream_flavors] && contacts[keys][attribs].include?("strawberry")
+      values.each do |attribs, v2|
+        if attribs == :favorite_icecream_flavors
           contacts[keys][attribs].delete_at(0)
         end
       end
