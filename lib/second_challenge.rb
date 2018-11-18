@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   flat = []
-  groceries.each do |keys, values|
+  groceries.each do |keys, value|
     flat << keys.values
   end
   return flat
