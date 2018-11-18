@@ -16,9 +16,9 @@ def first_challenge
   #your code here
   contacts.each do |keys, values|
     if keys == "Freddy Mercury"
-      values.each do |attribs, vals2|
+      values.each do |attribs|
         if attribs == [:favorite_icecream_flavors]
-          contacts[keys][attribs].shift
+          contacts[keys][attribs].delete_at
         end
       end
     end
